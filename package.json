@@ -1,0 +1,29 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "This is a Telegram bot for interacting with instapapas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"¯\\_(ツ)_/¯\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/instapapas/TelegramBot.git"
+  },
+  "keywords": [
+    "telegram bot",
+    "instagram"
+  ],
+  "author": "Matías con tilde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/instapapas/TelegramBot/issues"
+  },
+  "homepage": "https://github.com/instapapas/TelegramBot#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io-client": "^1.7.3",
+    "telebot": "^1.0.7"
+  }
+}
