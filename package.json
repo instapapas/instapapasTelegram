@@ -23,7 +23,7 @@
   "homepage": "https://github.com/instapapas/TelegramBot#readme",
   "dependencies": {
     "express": "^4.15.2",
-    "socket.io-client": "^1.7.3",
-    "telebot": "^1.0.7"
+    "node-telegram-bot-api": "^0.27.0",
+    "socket.io-client": "^1.7.3"
   }
 }
