@@ -6,7 +6,7 @@ const bot = new TelegramBot(process.env.API_KEY, {
 const socket = require("socket.io-client").connect("https://instapapas.herokuapp.com");
 
 bot.onText(/(\/help|\/start)/, (msg, match) => {
-  bot.sendMessage(msg.chat.id, "[insert help here]");
+  bot.sendMessage(msg.chat.id, "This bot is for interacting with instapapas. If you want to search a picture of instapapas, you have to write /search and then the name of the picture you want to search in the same message. If you write it in different messages, the bot will not search anything. If you want you can use it inline too.");
 });
 
 bot.onText(/\/search (.+)/, (msg, match) => {
